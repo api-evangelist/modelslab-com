@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-modelslab-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://modelslab.com/
+ModelsLab provides enterprise‑grade API access to over 10,000 AI models spanning image generation, video creation, voice synthesis, and large language models. Developers can integrate generative AI capabilities such as text‑to‑image, video generation, audio synthesis, and LLM chat via a single unified API. The platform offers scalable, fast, and cost‑effective endpoints, detailed documentation, and support for multiple programming languages. Founded in 2022, ModelsLab serves businesses building AI‑enhanced applications.
+
+**Areas:** Company · AI · GenerativeAI · Image · Video · Audio · LLM
+
+## modelslab-com on APIs.io
+
+Everything profiled for modelslab-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/modelslab-com/](https://apis.io/providers/modelslab-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [ModelsLab Generation API](https://apis.io/apis/modelslab-com/modelslab-generation-api/) — Unified generation API for image, video, audio, 3D, training and LLM models. Most generation endpoints are asynchronous: a request returns either a…
+- [ModelsLab Generation API API](https://apis.io/apis/modelslab-com/modelslab-generation-api-api/) — Unified generation API for image, video, audio, 3D, training and LLM models. Most generation endpoints are asynchronous: a request returns either a…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [Generation response](https://apis.io/schemas/modelslab-com/modelslab-com-generation-response/)
+- [LLM response](https://apis.io/schemas/modelslab-com/modelslab-com-llm-response/)
+- [Video batch request](https://apis.io/schemas/modelslab-com/modelslab-com-video-batch-request/)
+- [Video batch response](https://apis.io/schemas/modelslab-com/modelslab-com-video-batch-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Modelslab Com Context](https://apis.io/jsonld/modelslab-com/modelslab-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [modelslab-com API Rules](https://apis.io/rules/modelslab-com/modelslab-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Modelslab Com Authentication](https://apis.io/security/modelslab-com/modelslab-com-authentication/)
+- [Modelslab Com Domain Security](https://apis.io/security/modelslab-com/modelslab-com-domain-security/)
+- [Modelslab Com Vulnerability Disclosure](https://apis.io/security/modelslab-com/modelslab-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Modelslab Com Scopes](https://apis.io/scopes/modelslab-com/modelslab-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Modelslab Com Plans Pricing](https://apis.io/plans/modelslab-com/modelslab-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Modelslab Com Rate Limits](https://apis.io/rate-limits/modelslab-com/modelslab-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://modelslab.com/)
+- [Documentation](https://docs.modelslab.com)
+- [Getting started](https://modelslab.com/docs)
+- [API reference](https://docs.modelslab.com)
+- [Pricing](https://modelslab.com/pricing)
+- [Support](https://modelslab.com/support)
+- [Changelog](https://docs.modelslab.com/release-notes/api)
+- [Blog](https://modelslab.com/blog)
+- [Security](https://modelslab.com/terms-of-service)
+- [Terms of service](https://modelslab.com/terms-of-service)
+- [Privacy policy](https://modelslab.com/privacy-policy)
+- [GitHub](https://github.com/ModelsLab)
+- [Status](https://status.modelslab.com)
+
+## API Evangelist rating
+
+**Kin Score 70.7** — exemplar · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 75.8 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 73.2 |
+
+**Agent readiness 47.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/modelslab-com/](https://apis.io/providers/modelslab-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for modelslab-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/modelslab-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
